@@ -14,6 +14,13 @@ Please see chessboardjs.com for documentation and examples.
     
 ```
 
+And add the next code in your config or vite config for avoid errors with global variable.
+```
+define: {
+    global: {},
+  },
+```
+
 ## Example Code
 
 ```html
