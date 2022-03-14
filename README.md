@@ -1,7 +1,7 @@
-# Chessboardjs-Vue
+# Chessboardjs-Vuee
 
 
-Fork from [chessboardjs](https://github.com/oakmac/chessboardjs) that makes the module  work with Vue and Webpack
+Fork from [chessboardjs-vue](https://github.com/technoo0/chessboardjs-vue) that makes the module work with Vue3
 
 Please see chessboardjs.com for documentation and examples.
 
@@ -10,7 +10,7 @@ Please see chessboardjs.com for documentation and examples.
 
 ```sh
     # NPM
-    npm install chessboardjs-vue
+    npm install chessboardjs-vue3
     
 ```
 
@@ -21,7 +21,7 @@ Please see chessboardjs.com for documentation and examples.
 ```
 ```js
     //Vue
-    import ChessBoard from "chessboardjs-vue";
+    import ChessBoard from "chessboardjs-vue3";
     
     export default {
         mounted(){
@@ -35,10 +35,9 @@ Please see chessboardjs.com for documentation and examples.
 
 ## What i did 
 
-
-- first I exported the constructor function instead of using jquery   
-- second I inked the board css 
-- third I linked the Chess pisces images 
+- Changes the way to import css .
+- Fix error when import images from package, now the images are in consumer project.
+- Add config for define path to images.
 
 ## Docs and Examples
 
