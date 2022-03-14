@@ -1,4 +1,4 @@
-# Chessboardjs-Vuee
+# Chessboardjs-Vue3
 
 
 Fork from [chessboardjs-vue](https://github.com/technoo0/chessboardjs-vue) that makes the module work with Vue3
