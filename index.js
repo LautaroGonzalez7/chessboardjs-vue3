@@ -542,11 +542,11 @@ function buildContainerHTML (hasSparePieces) {
 
 function expandConfigArgumentShorthand (config) {
   if (config === 'start') {
-    config = {position: deepCopy(START_POSITION)}
+    config = {position: deepCopy(START_POSITION), imagesPath: "/wikipedia"}
   } else if (validFen(config)) {
-    config = {position: fenToObj(config)}
+    config = {position: fenToObj(config), imagesPath: "/wikipedia"}
   } else if (validPositionObject(config)) {
-    config = {position: deepCopy(config)}
+    config = {position: deepCopy(config), imagesPath: "/wikipedia"}
   }
 
   // config must be an object
@@ -574,6 +574,9 @@ function expandConfig (config) {
 
   // draggable must be true if sparePieces is enabled
   if (config.sparePieces) config.draggable = true
+
+  // default imagesPath is /wikipedia
+  if (!config.imagesPath) config.imagesPath = "/wikipedia"
 
   // default piece theme is wikipedia
   if (!config.hasOwnProperty('pieceTheme') ||

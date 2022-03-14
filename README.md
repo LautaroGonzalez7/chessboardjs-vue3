@@ -25,12 +25,26 @@ Please see chessboardjs.com for documentation and examples.
     
     export default {
         mounted(){
-            ChessBoard('board1',"start");
+            ChessBoard('board1', {
+                config: {
+                    position: 'start',
+                    imagesPath: "/wikipedia"
+                }
+            });
         }
   
 }
 
 ```
+
+## Images for chess pieces
+You need download images to your project and set the images folder path in config.<br>
+Default path is ```/wikipedia``` <br>
+You can download some theme pieces images from here:
+```
+https://github.com/oakmac/chessboardjs/tree/master/website/img/chesspieces
+```
+
 Please see chessboardjs.com for documentation and examples.
 
 ## What i did 
