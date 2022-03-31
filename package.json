@@ -1,6 +1,6 @@
 {
   "name": "chessboardjs-vue3",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Fork from chessboardjs-vue that makes the moudle work with Vue3",
   "main": "index.js",
   "dependencies": {
