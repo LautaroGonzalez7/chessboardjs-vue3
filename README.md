@@ -52,7 +52,7 @@ You can download some theme pieces images from here:
 https://github.com/oakmac/chessboardjs/tree/master/website/img/chesspieces
 ```
 
-## You want change board style?
+## Do you want to change the board style?
 You need copy this file:
 ```
 node_modules/chessboardjs-vue3/chessboard-1.0.0.css
