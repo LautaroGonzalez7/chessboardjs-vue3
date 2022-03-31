@@ -52,6 +52,13 @@ You can download some theme pieces images from here:
 https://github.com/oakmac/chessboardjs/tree/master/website/img/chesspieces
 ```
 
+## You want change board style?
+You need copy this file:
+```
+node_modules/chessboardjs-vue3/chessboard-1.0.0.css
+```
+And paste in your project. You can edit the css and import in your components. This will overwrite the default css from node_modules. 
+
 Please see chessboardjs.com for documentation and examples.
 
 ## What i did 
